@@ -1,7 +1,8 @@
 //kill me
-//l
+//OOF
 void setup(){
   size(869, 500);
+  
   
 }
 
