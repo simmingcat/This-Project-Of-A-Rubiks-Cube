@@ -21,12 +21,17 @@ void draw() {
   noFill();
   box(200);
 <<<<<<< HEAD
+<<<<<<< HEAD
   translate(width/2, height/2, -100);
   box(80);
   
 }
 
 void cubeDraw(){
+=======
+  translate(-65, -65, 65);
+  box(70);
+>>>>>>> c01cb22c7ce046fdd6100df1d580d934eb686465
 =======
   translate(-65, -65, 65);
   box(70);
