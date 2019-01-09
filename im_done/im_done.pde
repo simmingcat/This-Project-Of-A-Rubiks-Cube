@@ -19,4 +19,8 @@ void draw() {
   stroke(255);
   noFill();
   box(200);
+  translate(width/2, height/2, -100);
+  box(80);
+  
+  
 }
