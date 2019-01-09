@@ -19,8 +19,8 @@ void draw() {
   stroke(255);
   noFill();
   box(200);
-  translate(width/2, height/2, -100);
-  box(80);
+  translate(-65, -65, 65);
+  box(70);
   
-  
+   println ("Mousex:", mouseX, "\tMouseY:", mouseY);
 }
