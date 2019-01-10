@@ -6,7 +6,12 @@ color yellow = #FFF817;
 color blue = #21CDFF;
 color white =#FFFFFF;
 color orange = #FF7A21;
+<<<<<<< HEAD
 
+=======
+color black = #000000;
+int rubiksCube = 300;
+>>>>>>> 69344ddd4e09668ebb2b5c4db4c64acf9b52f3f5
 
 void setup() {
   size(640, 360, P3D);
@@ -19,13 +24,27 @@ void draw() {
   stroke(255);
   noFill();
   box(200);
-
-  translate(width/2, height/2, -100);
-  box(80);
+  fill(black);
+  stroke(1);
+  translate(-68, -2, 68);
+  box(65);
+  translate(0, -65, 0);
+  box(65);
+  translate(0, -65, 0);
+  box(65);
+  noStroke();
   
-  translate(-65, -65, 65);
-  box(70);
-  translate(-65, -65, 65);
-  box(70);
-   println ("Mousex:", mouseX, "\tMouseY:", mouseY);
+  fill(red);
+  stroke(1);
+  translate(0, 0, 10);
+  noStroke();
+  box(55);
+  stroke(1);
+  translate(0, 65, 0);
+  noStroke();
+  box(55);
+  stroke(1);
+  translate(0, 65, 0);
+  noStroke();
+  box(55);
 }
