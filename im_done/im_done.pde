@@ -43,11 +43,14 @@ void draw() {
   translate(0, 65, 0);
   noStroke();
   box(55);
+  stroke(1);
   
   fill(black);
     translate(0, 0, 0);
   box(65);
+  
   fill(red);
   translate(0, 1, 0);
   box(55);
+  
 }
