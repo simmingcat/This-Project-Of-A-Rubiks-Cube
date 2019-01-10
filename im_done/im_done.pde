@@ -6,6 +6,7 @@ color yellow = #FFF817;
 color blue = #21CDFF;
 color white =#FFFFFF;
 color orange = #FF7A21;
+color black = #000000;
 int rubiksCube = 300;
 
 void setup() {
@@ -14,28 +15,26 @@ void setup() {
 
 void draw() {
   background(0);
-  cubeDraw();
   camera(mouseX, height/2, (height/2) / tan(PI/6), width/2, height/2, 0, 0, 1, 0);
   translate(width/2, height/2, -100);
   stroke(255);
   noFill();
   box(200);
-<<<<<<< HEAD
-<<<<<<< HEAD
-  translate(width/2, height/2, -100);
-  box(80);
+  fill(black);
+  stroke(1);
+  translate(-68, -2, 68);
+  box(65);
+  translate(0, -65, 0);
+  box(65);
+  noStroke();
+  fill(red);
+  stroke(1);
+  translate(0, 0, 10);
+  noStroke();
+  box(55);
+  stroke(1);
+  translate(0, 65, 0);
+  noStroke();
+  box(55);
   
-}
-
-void cubeDraw(){
-=======
-  translate(-65, -65, 65);
-  box(70);
->>>>>>> c01cb22c7ce046fdd6100df1d580d934eb686465
-=======
-  translate(-65, -65, 65);
-  box(70);
->>>>>>> c01cb22c7ce046fdd6100df1d580d934eb686465
-  
-   println ("Mousex:", mouseX, "\tMouseY:", mouseY);
 }
