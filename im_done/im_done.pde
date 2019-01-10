@@ -6,7 +6,7 @@ color yellow = #FFF817;
 color blue = #21CDFF;
 color white =#FFFFFF;
 color orange = #FF7A21;
-int rubiksCube = 300;
+
 
 void setup() {
   size(640, 360, P3D);
