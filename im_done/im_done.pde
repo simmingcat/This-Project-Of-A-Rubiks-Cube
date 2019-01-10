@@ -20,11 +20,10 @@ void draw() {
   stroke(255);
   noFill();
   box(200);
+ 
   fill(black);
   stroke(1);
   translate(-68, -2, 68);
-  box(65);
-  translate(0, -65, 0);
   box(65);
   translate(0, -65, 0);
   box(65);
@@ -42,5 +41,12 @@ void draw() {
   stroke(1);
   translate(0, 65, 0);
   noStroke();
+  box(55);
+  
+  fill(black);
+    translate(0, 0, 0);
+  box(65);
+  fill(red);
+  translate(0, 1, 0);
   box(55);
 }
