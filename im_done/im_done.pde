@@ -26,7 +26,10 @@ void draw() {
   box(65);
   translate(0, -65, 0);
   box(65);
+  translate(0, -65, 0);
+  box(65);
   noStroke();
+  
   fill(red);
   stroke(1);
   translate(0, 0, 10);
@@ -36,5 +39,8 @@ void draw() {
   translate(0, 65, 0);
   noStroke();
   box(55);
-  
+  stroke(1);
+  translate(0, 65, 0);
+  noStroke();
+  box(55);
 }
