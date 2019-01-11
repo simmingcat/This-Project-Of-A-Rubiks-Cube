@@ -6,12 +6,12 @@ void bulitDraw(){
   stroke(255);
   
  noFill();
- box(200);//main cube
+ box(195);//main cube
  stroke(1);
  
   fill(black);
   noStroke();
-   translate(-68, 1, 68);
+   translate(-68, 65, 68);
  box(65);//this is what makes the black outline
   stroke(1);
  
@@ -20,7 +20,10 @@ translate(0, -65, 0);
  box(65);//this is what makes the black outline
   stroke(1);
   
-
+noStroke();
+translate(0, -65, 0);
+ box(65);//this is what makes the black outline
+  stroke(1);
  
 
  fill(red);
