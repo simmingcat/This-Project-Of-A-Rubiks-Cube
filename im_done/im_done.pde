@@ -1,5 +1,5 @@
 //kill me
-//OOF
+//OOFs
 color red = #FF2424;
 color green = #4CFF17;
 color yellow = #FFF817;
@@ -15,42 +15,8 @@ void setup() {
 }
 
 void draw() {
-  background(0);
-  camera(mouseX, height/2, (height/2) / tan(PI/6), width/2, height/2, 0, 0, 1, 0);
-  translate(width/2, height/2, -100);
-  stroke(255);
-  noFill();
-  box(200);
- 
-  fill(black);
-  stroke(1);
-  translate(-68, -2, 68);
-  box(65);
-  translate(0, -65, 0);
-  box(65);
-  noStroke();
+  background(blue);
+  bulitDraw();
   
-  fill(red);
-  stroke(1);
-  translate(0, 0, 10);
-  noStroke();
-  box(55);
-  stroke(1);
-  translate(0, 65, 0);
-  noStroke();
-  box(55);
-  stroke(1);
-  translate(0, 65, 0);
-  noStroke();
-  box(55);
-  stroke(1);
-  
-  fill(black);
-    translate(0, 0, 0);
-  box(65);
-  
-  fill(red);
-  translate(0, 1, 0);
-  box(55);
-  
+println ("mousex:", mouseX, "\tmouseY:", mouseY);
 }
