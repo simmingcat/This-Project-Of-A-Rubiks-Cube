@@ -1,7 +1,7 @@
 //you should really lable your stuff, it would be really helpful if you are looking for something
 
 void bulitDraw(){
-   camera(mouseX, height/2, (height/2) / tan(PI/6), width/2, height/2, 0, 0, 1, 0);
+   camera(mouseX, height/2, (height/2) / tan(PI/6), width/2, height/2, 360, 0, -1, 360);
   translate(width/2, height/2, -100);
   stroke(255);
   
