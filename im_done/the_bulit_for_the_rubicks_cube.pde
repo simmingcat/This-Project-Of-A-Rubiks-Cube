@@ -10,11 +10,11 @@ void bulitDraw(){
  stroke(1);
  
   fill(black);
-  noStroke();
-   translate(-68, 65, 68);
+   noStroke();
+   translate(65, 65, 68);
  box(65);//this is what makes the black outline
   stroke(1);
- 
+  
  noStroke();
 translate(0, -65, 0);
  box(65);//this is what makes the black outline
@@ -24,12 +24,80 @@ noStroke();
 translate(0, -65, 0);
  box(65);//this is what makes the black outline
   stroke(1);
+  ////
+  noStroke();
+   translate(-65, 130, 0);
+ box(65);//this is what makes the black outline
+  stroke(1);
+  
+ noStroke();
+translate(0, -65, 0);
+ box(65);//this is what makes the black outline
+  stroke(1);
+  
+noStroke();
+translate(0, -65, 0);
+ box(65);//this is what makes the black outline
+  stroke(1);
+  ////
+  noStroke();
+   translate(-65, 130, -2);
+ box(65);//this is what makes the black outline
+  stroke(1);
+  
+ noStroke();
+translate(0, -65, 0);
+ box(65);//this is what makes the black outline
+  stroke(1);
+  
+noStroke();
+translate(0, -65, 0);
+ box(65);//this is what makes the black outline
+  stroke(1);
+  
+  
  
 
  fill(red);
  //cube1
   noStroke();
  translate(0, 0, 10);
+  box(55);
+  stroke(1);
+  
+  //cube2
+  noStroke();
+  translate(0, 65, 0);
+  box(55);
+  stroke(1);
+
+  //cube3
+  noStroke();
+translate(0, 65, 0);
+ box(55);
+  stroke(1);
+  ////
+  //cube1
+  noStroke();
+  translate(65, -130, 0);
+  box(55);
+  stroke(1);
+  
+  //cube2
+  noStroke();
+  translate(0, 65, 0);
+  box(55);
+  stroke(1);
+
+  //cube3
+  noStroke();
+translate(0, 65, 0);
+ box(55);
+  stroke(1);
+  ////
+  //cube1
+  noStroke();
+ translate(65, -130, -2);
   box(55);
   stroke(1);
   
