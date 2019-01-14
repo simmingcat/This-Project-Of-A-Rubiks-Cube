@@ -57,9 +57,6 @@ noStroke();
 translate(0, -65, 0);
  box(65);//this is what makes the black outline
   stroke(1);
-  
-  
- 
 
  fill(red);
  //cube1
@@ -129,8 +126,15 @@ translate(0, 65, 0);
   box(55);
   stroke(1);
   
+  //box3
    noStroke();
  translate(0, -65, 0);
+  box(55);
+  stroke(1);
+  
+  //box4
+  noStroke();
+ translate(10, 0, -65);
   box(55);
   stroke(1);
   
