@@ -132,11 +132,22 @@ translate(0, 65, 0);
   box(55);
   stroke(1);
   
-  //box4
+  //box7
   noStroke();
- translate(10, 0, -65);
+ translate(0, 0, -100);
+  box(55);
+  stroke(1);
+
+  //box 8
+   noStroke();
+ translate(0, 65, 0);
   box(55);
   stroke(1);
   
+ //box9
+   noStroke();
+ translate(0, 70, -15);
+  box(55);
+  stroke(1);
  
 }
