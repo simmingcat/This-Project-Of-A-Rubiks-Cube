@@ -117,9 +117,20 @@ translate(0, 65, 0);
   stroke(1);
   
   fill(white);
-  
+  //Box 1
   noStroke();
- translate(0, 0, -70);
+ translate(10, 0, -10);
+  box(55);
+  stroke(1);
+  
+  //box 2
+   noStroke();
+ translate(0, -65, 0);
+  box(55);
+  stroke(1);
+  
+   noStroke();
+ translate(0, -65, 0);
   box(55);
   stroke(1);
   
