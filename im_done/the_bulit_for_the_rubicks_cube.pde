@@ -1,7 +1,6 @@
 //you should really lable your stuff, it would be really helpful if you are looking for something
-
 void bulitDraw(){
-   camera(mouseX, height/2, (height/2) / tan(PI/6), width/2, height/2, -360, 0, 1, -360);
+   camera(mouseX, height/2, (height/2) / tan(PI/6), width/2, height/2, 0, 0, -1, 0);
   translate(width/2, height/2, -100);
   stroke(255);
  noFill();
@@ -223,5 +222,17 @@ translate(0, 65, 0);
  translate(0, -65, 0);
   box(55);
   stroke(1);
+  
+  fill(blue);
+  
+ //cube1
+  noStroke();
+ translate(10, 140, 140);
+  box(55);
+  stroke(1);
+  
+  
+  
+  
  
 }
