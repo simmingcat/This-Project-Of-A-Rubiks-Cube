@@ -187,5 +187,41 @@ translate(0, 65, 0);
  translate(0, -65, 0);
   box(55);
   stroke(1);
+  
+    //box 4
+   noStroke();
+ translate(0, 130, -70);
+  box(55);
+  stroke(1);
+  
+    //box 5
+   noStroke();
+ translate(0, -65, 0);
+  box(55);
+  stroke(1);
+  
+    //box 6
+   noStroke();
+ translate(0, -65, 0);
+  box(55);
+  stroke(1);
+  
+    //box7
+  noStroke();
+ translate(0, 130, -70);
+  box(55);
+  stroke(1);
+  
+      //box 8
+   noStroke();
+ translate(0, -65, 0);
+  box(55);
+  stroke(1);
+  
+      //box 9
+   noStroke();
+ translate(0, -65, 0);
+  box(55);
+  stroke(1);
  
 }
