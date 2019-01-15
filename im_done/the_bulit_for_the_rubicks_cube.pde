@@ -4,12 +4,11 @@ void bulitDraw(){
    camera(mouseX, height/2, (height/2) / tan(PI/6), width/2, height/2, -360, 0, 1, -360);
   translate(width/2, height/2, -100);
   stroke(255);
-  
  noFill();
+ fill(black);
  box(195);//main cube
  stroke(1);
  
-  fill(black);
   //row1 for red
    noStroke();
    translate(65, 65, 68);
