@@ -6,6 +6,7 @@ void bulitDraw(){
   stroke(255);
  noFill();
  fill(black);
+ noStroke();
  box(195);//main cube
  stroke(1);
  
@@ -131,9 +132,27 @@ translate(0, 65, 0);
   box(55);
   stroke(1);
   
+  //box 4
+   noStroke();
+ translate(0, 130, -70);
+  box(55);
+  stroke(1);
+  
+  //box 5
+   noStroke();
+ translate(0, -65, 0);
+  box(55);
+  stroke(1);
+  
+  //box 6
+   noStroke();
+ translate(0, -65, 0);
+  box(55);
+  stroke(1);
+  
   //box7
   noStroke();
- translate(0, 0, -150);
+ translate(0, 0, -70);
   box(55);
   stroke(1);
 
