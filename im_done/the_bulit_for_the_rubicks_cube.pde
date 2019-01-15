@@ -168,4 +168,24 @@ translate(0, 65, 0);
   box(55);
   stroke(1);
  
+ fill(yellow);
+ 
+  //Box 1
+  noStroke();
+ translate(-150, 0, 145);
+  box(55);
+  stroke(1);
+ 
+  //box 2
+   noStroke();
+ translate(0, -65, 0);
+  box(55);
+  stroke(1);
+  
+    //box3
+   noStroke();
+ translate(0, -65, 0);
+  box(55);
+  stroke(1);
+ 
 }
