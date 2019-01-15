@@ -134,19 +134,19 @@ translate(0, 65, 0);
   
   //box7
   noStroke();
- translate(0, 0, -100);
+ translate(0, 0, -150);
   box(55);
   stroke(1);
 
   //box 8
    noStroke();
- translate(0, 65, -35);
+ translate(0, 65, 0);
   box(55);
   stroke(1);
   
  //box9
    noStroke();
- translate(0, 65, -5);
+ translate(0, 65, 0);
   box(55);
   stroke(1);
  
