@@ -1,11 +1,24 @@
+//kill me
+//OOFs
+color red = #FF2424;
+color green = #4CFF17;
+color yellow = #FFF817;
+color blue = #21CDFF;
+color white =#FFFFFF;
+color orange = #FF7A21;
+color pink = #FF037D;
 
-void setup(){
-  size(1080, 1060);
+color black = #000000;
+int rubiksCube = 300;
+
+void setup() {
+  size(640, 360, P3D);
 }
 
-void draw(){
-  background(0);
- translate(width/ 2, height/2, 0);
-   box(30);
-   
+void draw() {
+  background(pink);
+  bulitDraw();
+ 
+  
+//println ("mousex:", mouseX, "\tmouseY:", mouseY);
 }
