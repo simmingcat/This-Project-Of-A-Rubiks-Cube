@@ -115,7 +115,7 @@ translate(0, 65, 0);
   fill(white);
   //Box 1
   noStroke();
- translate(10, 0, 0);
+ translate(10, 0, -5);
   box(55);
   stroke(1);
   
@@ -171,7 +171,7 @@ translate(0, 65, 0);
  
   //Box 1
   noStroke();
- translate(-150, 0, 145);
+ translate(-150, 0, 135);
   box(55);
   stroke(1);
  
@@ -227,7 +227,7 @@ translate(0, 65, 0);
   
  //cube1
   noStroke();
- translate(10, 138, 140);
+ translate(10, 138, 135);
   box(55);
   stroke(1);
   
@@ -283,7 +283,7 @@ translate(0, 65, 0);
   
   //cube1
   noStroke();
- translate(-130, -148, 125);
+ translate(-130, -148, 130);
   box(55);
   stroke(1);
   
@@ -339,7 +339,7 @@ translate(0, 65, 0);
   
   //cube1
   noStroke();
- translate(0, 10, -20);
+ translate(0, 10, -5);
   box(55);
   stroke(1);
   
