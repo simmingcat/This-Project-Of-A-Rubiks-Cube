@@ -229,7 +229,7 @@ translate(0, 65, 0);
   
  //cube1
   noStroke();
- translate(10, 138, 120);
+ translate(10, 138, 140);
   box(55);
   stroke(1);
   
@@ -285,7 +285,7 @@ translate(0, 65, 0);
   
   //cube1
   noStroke();
- translate(-130, -148, 160);
+ translate(-130, -148, 140);
   box(55);
   stroke(1);
   
