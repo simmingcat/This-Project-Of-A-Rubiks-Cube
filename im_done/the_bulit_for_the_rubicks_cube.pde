@@ -2,6 +2,8 @@
 void bulitDraw(){
    camera(mouseX, height/2, (height/2) / tan(PI/6), width/2, height/2, 0, 0, -1, 0);
   translate(360, 360, -100);
+   camera(mouseX, height/2, (height/2) / tan(PI/6), width/2, height/2, 1, -360, 1, -360);
+  translate(width/2, height/2, -100);
   stroke(255);
  noFill();
  fill(black);
