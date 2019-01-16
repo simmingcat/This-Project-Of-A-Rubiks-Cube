@@ -19,5 +19,5 @@ void draw() {
   bulitDraw();
  
   
-println ("mousex:", mouseX, "\tmouseY:", mouseY);
+//println ("mousex:", mouseX, "\tmouseY:", mouseY);
 }

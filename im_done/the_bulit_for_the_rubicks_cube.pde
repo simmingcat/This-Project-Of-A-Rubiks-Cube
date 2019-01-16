@@ -1,7 +1,7 @@
 //you should really lable your stuff, it would be really helpful if you are looking for something
 void bulitDraw(){
    camera(mouseX, height/2, (height/2) / tan(PI/6), width/2, height/2, 0, 0, -1, 0);
-  translate(width/2, height/2, -100);
+  translate(360, 360, -100);
   stroke(255);
  noFill();
  fill(black);
@@ -227,12 +227,112 @@ translate(0, 65, 0);
   
  //cube1
   noStroke();
- translate(10, 140, 140);
+ translate(10, 138, 120);
   box(55);
   stroke(1);
   
+  //box 2
+     noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
   
+  //box 3
+     noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
   
+  //box 4
+    noStroke();
+ translate(-130, 0, -70);
+  box(55);
+  stroke(1);
   
- 
+    //box 5
+     noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
+  
+    //box 6
+     noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
+  
+  //box 7
+      noStroke();
+ translate(-130, 0, -70);
+  box(55);
+  stroke(1);
+  
+    //box 8
+     noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
+  
+    //box 9
+     noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
+  
+  fill(green);
+  
+  //cube1
+  noStroke();
+ translate(-130, -148, 160);
+  box(55);
+  stroke(1);
+  
+  //box 2
+     noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
+  
+  //box 3
+     noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
+  
+  //box 4
+    noStroke();
+ translate(-130, -0, -68);
+  box(55);
+  stroke(1);
+  
+  //box 5
+  noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
+  
+  //box 6
+ noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
+  
+    //box 7
+    noStroke();
+ translate(-130, -0, -75);
+  box(55);
+  stroke(1);
+  
+    //box 9
+ noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
+  
+    //box 9
+ noStroke();
+ translate(65, 0, 0);
+  box(55);
+  stroke(1);
+
 }
