@@ -1,7 +1,7 @@
 //you should really lable your stuff, it would be really helpful if you are looking for something
 void bulitDraw(){
-   camera(mouseX, height/2, (height/2) / tan(PI/6), width/2, height/2, 0, 0, -1, 0);
-  translate(360, 360, -100);
+   camera(mouseX, height/-2, (height/-2) / tan(PI/6), width/2, height/2, 0, 0, -1, 0);
+  translate(width/2, height/2, -100);
   stroke(255);
  noFill();
  fill(black);
@@ -115,7 +115,7 @@ translate(0, 65, 0);
   fill(white);
   //Box 1
   noStroke();
- translate(10, 0, -10);
+ translate(10, 0, 0);
   box(55);
   stroke(1);
   
@@ -151,7 +151,7 @@ translate(0, 65, 0);
   
   //box7
   noStroke();
- translate(0, 0, -70);
+ translate(0, 0, -65);
   box(55);
   stroke(1);
 
@@ -207,7 +207,7 @@ translate(0, 65, 0);
   
     //box7
   noStroke();
- translate(0, 130, -70);
+ translate(0, 130, -65);
   box(55);
   stroke(1);
   
@@ -263,7 +263,7 @@ translate(0, 65, 0);
   
   //box 7
       noStroke();
- translate(-130, 0, -70);
+ translate(-130, 0, -65);
   box(55);
   stroke(1);
   
@@ -283,7 +283,7 @@ translate(0, 65, 0);
   
   //cube1
   noStroke();
- translate(-130, -148, 140);
+ translate(-130, -148, 125);
   box(55);
   stroke(1);
   
@@ -319,7 +319,7 @@ translate(0, 65, 0);
   
     //box 7
     noStroke();
- translate(-130, -0, -75);
+ translate(-130, -0, -65);
   box(55);
   stroke(1);
   
@@ -332,6 +332,62 @@ translate(0, 65, 0);
     //box 9
  noStroke();
  translate(65, 0, 0);
+  box(55);
+  stroke(1);
+  
+  fill(orange);
+  
+  //cube1
+  noStroke();
+ translate(0, 10, -20);
+  box(55);
+  stroke(1);
+  
+  //cube2
+  noStroke();
+  translate(0, 65, 0);
+  box(55);
+  stroke(1);
+  
+  //cube3
+  noStroke();
+  translate(0, 65, 0);
+  box(55);
+  stroke(1);
+  
+  //box 4
+    noStroke();
+  translate(-65, -130, 0);
+  box(55);
+  stroke(1);
+  
+  //cube 5
+  noStroke();
+  translate(0, 65, 0);
+  box(55);
+  stroke(1);
+  
+  //cube 6
+  noStroke();
+  translate(0, 65, 0);
+  box(55);
+  stroke(1);
+  
+  //cub e7
+  noStroke();
+  translate(-65, -130, -2);
+  box(55);
+  stroke(1);
+  
+  //cube 8
+  noStroke();
+  translate(0, 65, 0);
+  box(55);
+  stroke(1);
+  
+  //cube 9
+  noStroke();
+  translate(0, 65, 0);
   box(55);
   stroke(1);
 
