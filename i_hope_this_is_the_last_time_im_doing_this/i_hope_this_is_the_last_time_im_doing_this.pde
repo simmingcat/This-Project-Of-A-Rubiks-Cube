@@ -18,7 +18,5 @@ void setup() {
 void draw() {
   background(pink);
   bulitDraw();
- 
-  
 //println ("mousex:", mouseX, "\tmouseY:", mouseY);
 }
