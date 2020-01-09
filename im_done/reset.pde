@@ -9,6 +9,7 @@ void startGame() {
   loop();
   if (startGame == true) {
     bulitDraw();
+    coloryBoi();
     startGame = false;
   }
 }

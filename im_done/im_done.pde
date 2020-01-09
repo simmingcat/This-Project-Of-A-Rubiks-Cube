@@ -1,11 +1,5 @@
 float rotation=0;
 
-color red = #FF2424;
-color green = #4CFF17;
-color yellow = #FFF817;
-color blue = #21CDFF;
-color white =#FFFFFF;
-color orange = #FF7A21;
 color purple = #C433B6;
 
 color black = #000000;
@@ -17,10 +11,8 @@ void setup() {
 }
 
 void draw() {
-  loop();
   background(purple);
   bulitDraw();
-  rando();
   buildDraw();
 
   float orbitRadius= mouseX/2+50;
@@ -37,5 +29,5 @@ void draw() {
 }
 void keyPressed() {
   resetButtonPressed();
-  rando();
+  coloryBoi() ;
 }
