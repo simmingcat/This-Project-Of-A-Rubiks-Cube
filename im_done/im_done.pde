@@ -8,12 +8,13 @@ boolean startGame = false;
 
 void setup() {
   size(840, 560, P3D);
+  bulitDraw();
 }
 
 void draw() {
   background(purple);
   bulitDraw();
-  buildDraw();
+    buildDraw();
 
   float orbitRadius= mouseX/2+50;
   float ypos= mouseY/3;

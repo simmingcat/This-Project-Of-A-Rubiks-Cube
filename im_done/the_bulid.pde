@@ -1,4 +1,5 @@
 void bulitDraw() {
+
   rotate(725);
   stroke(255);
   noFill();
@@ -7,7 +8,8 @@ void bulitDraw() {
   box(195);//main cube
   stroke(1);
 }
-void buildDraw(){
+void buildDraw() {
+  
   //row1 for red
   noStroke();
   translate(65, 65, 68);
@@ -55,7 +57,10 @@ void buildDraw(){
   translate(0, -65, 0);
   box(65);//this is what makes the black outline
   stroke(1);
+}
 
+  void CubyDraw(){
+    buildDraw();
   fill(red);
   //cube1
   noStroke();
@@ -342,6 +347,7 @@ void buildDraw(){
   box(55);
   stroke(1);
 
+
   //cube2
   noStroke();
   translate(0, 65, 0);
@@ -353,18 +359,21 @@ void buildDraw(){
   translate(0, 65, 0);
   box(55);
   stroke(1);
+  
 
   //box 4
   noStroke();
   translate(-65, -130, 0);
   box(55);
   stroke(1);
+  
 
   //cube 5
   noStroke();
   translate(0, 65, 0);
   box(55);
   stroke(1);
+  
 
   //cube 6
   noStroke();
@@ -377,7 +386,7 @@ void buildDraw(){
   translate(-65, -130, -2);
   box(55);
   stroke(1);
-
+  
   //cube 8
   noStroke();
   translate(0, 65, 0);

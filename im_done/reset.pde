@@ -8,7 +8,7 @@ void resetButtonPressed() {
 void startGame() {
   loop();
   if (startGame == true) {
-    bulitDraw();
+    buildDraw();
     coloryBoi();
     startGame = false;
   }
