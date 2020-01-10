@@ -19,8 +19,11 @@ color orange = #FF7A21;
 
 void coloryBoi() {
   if (key == 's' || key == 'S') {
+    loop();
+    CubyDraw();
   fill(r2);
   }else{
+    CubyDraw();
   fill(r3);
   }
 }

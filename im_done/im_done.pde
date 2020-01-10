@@ -14,12 +14,16 @@ void setup() {
 void draw() {
   background(purple);
   bulitDraw();
-    buildDraw();
+  buildDraw();
+  CubyDraw();
+    
 
   float orbitRadius= mouseX/2+50;
-  float ypos= mouseY/3;
+  float ypos= mouseY/3/orbitRadius;
   float xpos= cos(radians(rotation))*orbitRadius;
   float zpos= sin(radians(rotation))*orbitRadius;
+  
+  //tan is springy boit
 
   camera(xpos, ypos, zpos, 0, 0, 0, 0, -1, 0);
 

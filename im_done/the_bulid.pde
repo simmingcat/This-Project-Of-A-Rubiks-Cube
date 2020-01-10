@@ -9,7 +9,7 @@ void bulitDraw() {
   stroke(1);
 }
 void buildDraw() {
-  
+
   //row1 for red
   noStroke();
   translate(65, 65, 68);
@@ -59,9 +59,9 @@ void buildDraw() {
   stroke(1);
 }
 
-  void CubyDraw(){
-    buildDraw();
+void CubyDraw() {
   fill(red);
+
   //cube1
   noStroke();
   translate(0, 0, 10);
@@ -116,7 +116,7 @@ void buildDraw() {
   box(55);
   stroke(1);
 
-  fill(white);
+  fill(green);
   //Box 1
   noStroke();
   translate(10, 0, -5);
@@ -171,7 +171,7 @@ void buildDraw() {
   box(55);
   stroke(1);
 
-  fill(yellow);
+  fill(white);
 
   //Box 1
   noStroke();
@@ -227,7 +227,7 @@ void buildDraw() {
   box(55);
   stroke(1);
 
-  fill(blue);
+  fill(orange);
 
   //cube1
   noStroke();
@@ -283,7 +283,7 @@ void buildDraw() {
   box(55);
   stroke(1);
 
-  fill(green);
+  fill(blue);
 
   //cube1
   noStroke();
@@ -339,7 +339,7 @@ void buildDraw() {
   box(55);
   stroke(1);
 
-  fill(orange);
+  fill(yellow);
 
   //cube1
   noStroke();
@@ -359,21 +359,18 @@ void buildDraw() {
   translate(0, 65, 0);
   box(55);
   stroke(1);
-  
 
   //box 4
   noStroke();
   translate(-65, -130, 0);
   box(55);
   stroke(1);
-  
 
   //cube 5
   noStroke();
   translate(0, 65, 0);
   box(55);
   stroke(1);
-  
 
   //cube 6
   noStroke();
@@ -386,7 +383,7 @@ void buildDraw() {
   translate(-65, -130, -2);
   box(55);
   stroke(1);
-  
+
   //cube 8
   noStroke();
   translate(0, 65, 0);
