@@ -60,68 +60,77 @@ void buildDraw() {
 }
 
 void CubyDraw() {
-  fill(red);
+  fill(r2);
 
   //cube1
   noStroke();
   translate(0, 0, 10);
   box(55);
   stroke(1);
-
+  noFill();
+  fill(r3);
   //cube2
   noStroke();
   translate(0, 65, 0);
   box(55);
   stroke(1);
-
+  noFill();
+  fill(r2);
   //cube3
   noStroke();
   translate(0, 65, 0);
   box(55);
   stroke(1);
-
+  noFill();
+  fill(r3);
   //cube4
   noStroke();
   translate(65, -130, 0);
   box(55);
   stroke(1);
-
+  noFill();
+  fill(r2);
   //cube5
   noStroke();
   translate(0, 65, 0);
   box(55);
   stroke(1);
-
+  noFill();
+  fill(r3);
   //cube6
   noStroke();
   translate(0, 65, 0);
   box(55);
   stroke(1);
-
+  noFill();
+  fill(r2);
   //cube7
   noStroke();
   translate(65, -130, -2);
   box(55);
   stroke(1);
-
+  noFill();
   //cube8
+  fill(r3);
   noStroke();
   translate(0, 65, 0);
   box(55);
   stroke(1);
-
+  noFill();
+  fill(r2);
   //cube9
   noStroke();
   translate(0, 65, 0);
   box(55);
   stroke(1);
-
-  fill(green);
+ // noFill();
   //Box 1
+  
   noStroke();
   translate(10, 0, -5);
   box(55);
   stroke(1);
+
 
   //box 2
   noStroke();
@@ -171,7 +180,7 @@ void CubyDraw() {
   box(55);
   stroke(1);
 
-  fill(white);
+  fill(r3);
 
   //Box 1
   noStroke();
@@ -227,7 +236,7 @@ void CubyDraw() {
   box(55);
   stroke(1);
 
-  fill(orange);
+  fill(r3);
 
   //cube1
   noStroke();
@@ -283,7 +292,7 @@ void CubyDraw() {
   box(55);
   stroke(1);
 
-  fill(blue);
+  fill(r2);
 
   //cube1
   noStroke();
@@ -339,7 +348,7 @@ void CubyDraw() {
   box(55);
   stroke(1);
 
-  fill(yellow);
+  fill(r3);
 
   //cube1
   noStroke();
