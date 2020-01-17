@@ -1,29 +1,45 @@
-int selected = (int)random(0, 3);
-long choicesR[] = {255, 36, 36};
-long choicesG[] = {76, 255, 23};
-long choicesB[] = {33, 205, 255};
-
-long choicesY[] = {255, 248, 23};
-long choicesW[] = {255, 255, 255};
-long choicesO[] = {255, 122, 33};
-color r2 = color(choicesR[selected], choicesG[selected], choicesB[selected]);
-color r3 = color(choicesY[selected], choicesW[selected], choicesO[selected]);
-
-color red = #FF2424;
-color green = #4CFF17;
-color yellow = #FFF817;
-color blue = #21CDFF;
-color white =#FFFFFF;
-color orange = #FF7A21;
-
-
-void coloryBoi() {
-  if (key == 's' || key == 'S') {
-    loop();
-    CubyDraw();
-  fill(r2);
-  }else{
-    CubyDraw();
-  fill(r3);
+void rootate(){ 
+    if(key == 'n'){
+    restart();
   }
+  
+  if(key == 'r'){
+    CW1();
+  }
+  if(key == 'R'){
+    CCW1();
+  }
+  if(key == 'l'){
+    CW0();
+  }
+  if(key == 'L'){
+    CCW0();
+  }
+
+  if(key == 'u'){
+    CW2();
+  }
+  if(key == 'U'){
+    CCW2();
+  }
+  if(key == 'd'){
+    CW3();
+  }
+  if(key == 'D'){
+    CCW3();
+  }
+
+  if(key == 'f'){
+    CW4();
+  }
+  if(key == 'F'){
+    CCW4();
+  
+    }
+    if(key == 'e'){
+      E1CW();
+    }
+    if(key == 'E'){
+      E1CCW();
+    }
 }
