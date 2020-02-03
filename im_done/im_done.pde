@@ -22,6 +22,7 @@ int [][][]block = new int [v][w][colors];
 
 void setup() {
   size(600,600,P3D);
+  textSomething();
   //noStroke();
   strokeWeight(5);
   noFill();
@@ -37,7 +38,8 @@ void setup() {
 
 void draw() {
   background(purple);
-
+  noStroke();
+  textDraw();
      fill(255);
   stroke(0);
   fill(0);
