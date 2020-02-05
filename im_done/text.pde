@@ -7,6 +7,7 @@ String pressN = "press n to restart";
 
 String pressU = "press U for row 1";
 String pressL = "press L for column 1";
+String pressE = "look for the special key";
 
 void textSomething(){
   infoX = 91;
@@ -39,5 +40,9 @@ text(pressU, 510, 10, 250, 300 );
 textAlign(CENTER, CENTER);
 textFont(titleFont, 15);
 text(pressL, 490, 27, 250, 300 );
+
+textAlign(CENTER, CENTER);
+textFont(titleFont, 15);
+text(pressE, 310, 570, 250, 300 );
 
 }

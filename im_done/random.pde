@@ -28,13 +28,16 @@ void rootate(){
   if(key == 'D'){
     CCW3();
   }
+  
+  /*
   if(key == 'f'){
     CW4();
   }
   if(key == 'F'){
     CCW4();
-  
     }
+    */
+    
     if(key == 'e'){
       E1CW();
     }
