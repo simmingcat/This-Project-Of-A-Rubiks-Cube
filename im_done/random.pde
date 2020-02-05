@@ -29,14 +29,12 @@ void rootate(){
     CCW3();
   }
   
-  /*
-  if(key == 'f'){
-    CW4();
+  if(key == 'b'){
+    CW5();
   }
-  if(key == 'F'){
-    CCW4();
+  if(key == 'B'){
+   CCW5();
     }
-    */
     
     if(key == 'e'){
       E1CW();
